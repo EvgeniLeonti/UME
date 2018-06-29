@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    overflow:hidden;
+    margin: 0;
+    /*background-color: black;*/
+}
+
+#wrapper {
+    min-height: 90%;
+    height: 200px;
+    width: 100%;
+}
+
+#haifa_map{
+    display: block;
+    /*position: absolute;*/
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    text-align: center;
+
+}
+
+.link {
+    cursor: pointer;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #999999;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #32373a;
+    border: 1px solid #32373a;
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #32373a;
+}
